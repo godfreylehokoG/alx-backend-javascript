@@ -1,4 +1,4 @@
-function getResponseFromAPI() {
+export default function getResponseFromAPI() {
   const myPromise = new Promise(
     (resolve) => {
       resolve();
@@ -6,5 +6,3 @@ function getResponseFromAPI() {
   );
   return myPromise;
 }
-
-export default getResponseFromAPI;
